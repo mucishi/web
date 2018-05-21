@@ -1,0 +1,180 @@
+/*导航*/
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+header .navLeft{
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 28px;
+    display: flex;
+}
+header .navLeft .logo1{
+    color: rgb(241, 58, 58);
+}
+header .navLeft .logo2{
+    color: rgb(219, 219, 219);
+}
+header .navRight{
+    width: 588px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .navRight a{
+    flex-grow: 1;
+    font-size: 24px;
+    color: #333333;
+}
+header .navRight .bColor{
+    color: red;
+}
+/*图片*/
+.picture{
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+}
+/*明信片*/
+.cardTitle{
+    display: block;
+    width: 130px;
+    height: 35px;
+    color: red;
+    font-size: 26px;
+    text-align: center;
+    line-height: 35px;
+    margin:30px 100px;
+}
+.card{
+    width: 1180px;
+    height: 926px;
+    margin: 0 auto;
+}
+.card .box{
+    width: 540px;
+    height: 463px;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+}
+.card .box img{
+    width: 100%;
+    height: 100%;
+}
+.card .box:nth-of-type(1){
+    margin-left: 30px;
+}
+.card .box:nth-of-type(3){
+    margin-left: 30px;
+    padding: 90px 70px;
+}
+.card .box:nth-of-type(4){
+    display: flex;
+}
+.card .box img:nth-of-type(2){
+    height: 70%;
+}
+.card hr{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(140, 140, 140, 0.89);
+    margin-top: 20px;
+}
+.card .lifeC, .card .lifeE{
+    color:rgb(51, 51, 51);
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.card p{
+    font-size: 16px;
+    margin-top: 26px;
+}
+/*图片7*/
+.pictureSeven{
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    margin-top: 80px;
+    position: relative;
+}
+.pictureSeven img{
+    width: 100%;
+    height: 100%;
+}
+.pictureSeven .wenziC{
+    width: 150px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -56px;
+    left: 50%;
+    margin-left: -75px;
+}
+.pictureSeven .wenziE{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    /*margin-top: -20px;*/
+    margin-left: -62px;
+    color: rgb(255, 255, 255);
+}
+/*展示*/
+.show{
+    width: 100%;
+    height: 460px;
+    padding: 100px 20px;
+}
+.show .box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.show .box:nth-of-type(1){
+    margin-left: 180px;
+}
+.show .box:nth-of-type(5){
+    margin-left: 180px;
+}
+.show .box img{
+    width: 100%;
+    height: 100%;
+}
+/*底部*/
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgba(17, 0, 12, 0.88);
+    text-align: center;
+    line-height: 122px;
+}
+footer .logo3{
+    color: rgb(241, 58, 58);
+    font-size: 30px;
+    margin-top: 40px;
+}
+footer .logo4{
+    color: rgb(219, 219, 219);
+    font-size: 30px;
+    margin-left: 10px;
+}
+

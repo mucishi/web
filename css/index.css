@@ -1,0 +1,345 @@
+/*导航*/
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+header .navLeft{
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 28px;
+    display: flex;
+}
+header .navLeft .logo1{
+    color: rgb(241, 58, 58);
+}
+header .navLeft .logo2{
+    color: rgb(219, 219, 219);
+}
+header .navRight{
+    width: 588px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .navRight a{
+    flex-grow: 1;
+    font-size: 24px;
+    color: #333333;
+}
+header .navRight .bColor{
+    color: red;
+}
+/*轮播*/
+.banner{
+    width: 100%;
+    height: 571px;
+    margin-top: 16px;
+    position: relative;
+}
+.banner a img{
+    width: 100%;
+    height: 571px;
+}
+.banner a .Bac2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner a .Bac1 {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*图片的意义*/
+.meaning{
+    width: 100%;
+    height: 560px;
+    position: relative;
+    /*background-color: yellow;*/
+}
+.meaning img{
+    margin-top: 100px;
+    margin-left: 100px;
+    float:left;
+}
+.meaning .pin{
+    width: 58px;
+    height: auto;
+    color: rgb(33,33,33);
+    font-size: 60px;
+    background: transparent;
+    font-family: "微软雅黑";
+    position: absolute;
+    top: 126px;
+    right: 90px;
+}
+.meaning .pai{
+    width: 58px;
+    height: auto;
+    color: rgb(33,33,33);
+    font-size: 60px;
+    background: transparent;
+    font-family: "微软雅黑";
+    position: absolute;
+    right: 90px;
+    bottom: 126px;
+}
+.meaning p{
+    width: 348px;
+    height: 166px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 190px;
+    /*background-color: #75b5ff;*/
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+/*介绍*/
+.introduce{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.introduce .text1{
+    width: 300px;
+    height: 40px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 120px;
+}
+.introduce .text2{
+    width: 300px;
+    height: 42px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 170px;
+}
+.introduce a{
+    width: 180px;
+    height: 80px;
+    background-color: red;
+    font-size: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 230px;
+    color: rgb(255, 255, 255);
+}
+/*服务项目*/
+.serve{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: space-around;
+    /*background-color: yellow;*/
+    align-items: center;
+    margin-top: 20px;
+}
+.serve .serveL{
+    width: 290px;
+    height: 510px;
+    /*background-color: #ff655d;*/
+    padding: 0px 30px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.serve .serveL .searveTitle{
+    font-size: 24px;
+    color: rgb(51,51,51);
+}
+.serve .serveL p{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    margin-top: 20px;
+}
+.serve .serveR{
+    width: 828px;
+    height: 510px;
+    margin-left: -30px;
+}
+.serve .serveR .box{
+    /*border:1px solid black;*/
+    box-sizing: border-box;
+    float:left;
+    width: 276px;
+    height: 255px;
+}
+.serve .serveR .box img{
+    width: 255px;
+    height: 198px;
+    margin-left: 10px;
+}
+.serve .serveR .box span{
+    display: block;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+/*团队介绍*/
+.team{
+    width: 100%;
+    height: auto;
+   position: relative;
+}
+.team img{
+    width: 100%;
+    height: 190px;
+}
+.team .jieshaoC{
+    width: 96px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -34px;
+    margin-left: -48px;
+    font-size: 24px;
+    color: white;
+}
+.team .jieshaoE{
+    width: 240px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*margin-top: -15px;*/
+    margin-left: -100px;
+    font-size: 24px;
+    color: white;
+}
+    /*团队介绍内容*/
+.teanContent {
+    width: 100%;
+    height: 500px;
+    margin-top: 64px;
+    /*background-color: purple;*/
+    display: flex;
+    justify-content: space-around;
+}
+.teanContent .box{
+    width: 330px;
+    height: 475px;
+    /*background-color: red;*/
+}
+.teanContent .box:nth-of-type(1){
+    margin-left: 50px;
+}
+.teanContent .box:nth-of-type(3){
+    margin-right: 50px;
+}
+.teanContent .box img{
+    width: 285px;
+    height: 290px;
+    margin: 10px auto;
+    display: block;
+}
+.teanContent .box span{
+    display: block;
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 22px;
+    margin-top: 12px;
+}
+.teanContent .box p{
+    width: 280px;
+    height: 70px;
+    font-size: 16px;
+    margin: 12px auto;
+    text-align: center;
+}
+/*近期作品*/
+.recent{
+    width: 100%;
+    height: auto; /*background-color: red;*/
+}
+.recent img{
+    width: 100%;
+    height: 188px;
+}
+.recent .recentC{
+    width: 96px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -34px;
+    margin-left: -48px;
+    font-size: 24px;
+    color: white;
+}
+.recent .recentE{
+    width: 240px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*margin-top: -15px;*/
+    margin-left: -100px;
+    font-size: 24px;
+    color: white;
+}
+.recent .topImg{
+    width: 100%;
+    height: auto;
+    background-color: #75b5ff;
+    position: relative;
+}
+.recent .bottomCon{
+    width: 100%;
+    height: auto;
+    padding: 90px 52px;
+}
+.recent .bottomCon a{
+    display: block;
+    width: 416px;
+    height: auto;
+    float: left;
+}
+.recent .bottomCon a img{
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin: 16px ;
+}
+/*底部*/
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgba(17, 0, 12, 0.88);
+    text-align: center;
+    line-height: 122px;
+}
+footer .logo3{
+    color: rgb(241, 58, 58);
+    font-size: 30px;
+    margin-top: 40px;
+}
+footer .logo4{
+    color: rgb(219, 219, 219);
+    font-size: 30px;
+    margin-left: 10px;
+}
